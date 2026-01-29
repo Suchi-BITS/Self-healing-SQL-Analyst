@@ -1,0 +1,41 @@
+# Self-Healing SQL Data Analyst - Dependencies
+
+# Core LangGraph and LangChain
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# LLM Providers (choose one or more)
+langchain-openai>=0.2.0    # For OpenAI GPT models
+langchain-anthropic>=0.2.0  # For Claude models
+# langchain-google-genai>=0.0.5  # For Google Gemini models
+
+# Database Support
+# SQLite is included in Python standard library
+# For PostgreSQL:
+# psycopg2-binary>=2.9.0
+# sqlalchemy>=2.0.0
+
+# For MySQL:
+# pymysql>=1.1.0
+# sqlalchemy>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0  # For environment variables
+pydantic>=2.0.0       # For data validation
+typing-extensions>=4.5.0
+
+# Optional: Enhanced functionality
+# pandas>=2.0.0        # For data manipulation
+# numpy>=1.24.0        # For numerical operations
+
+# Development and Testing
+pytest>=7.4.0         # For testing
+pytest-asyncio>=0.21.0  # For async tests
+black>=23.0.0         # Code formatting
+flake8>=6.0.0         # Linting
+mypy>=1.5.0           # Type checking
+
+# Monitoring (optional)
+# prometheus-client>=0.17.0  # For metrics
+# structlog>=23.0.0          # For structured logging
